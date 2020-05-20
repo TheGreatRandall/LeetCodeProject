@@ -10,7 +10,8 @@ class Solution {
             
             if(haHa.containsKey(s.charAt(endPoint))){
                 if(startPoint < (haHa.get(s.charAt(endPoint))+1)){
-                     startPoint = haHa.get(s.charAt(endPoint))+1;
+                     startPoint = haHa.get(s.charAt(endPoint))+1; // We could also use Math.max function to get new StartPoint Value
+                     
                 }
                
                 
