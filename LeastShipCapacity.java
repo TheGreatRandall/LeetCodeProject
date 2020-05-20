@@ -12,7 +12,8 @@ eg:Input: weights = [3,2,2,4,1,4], D = 3
  */
 class solution{
 	public int shipWithinDays(int[] weights, int D){
-		int min = 0, int max = Integer.MAX_VALUE;
+		int min = 0; 
+		int max = Integer.MAX_VALUE;
 		while(min < max){
 			int mid = (min+max)/2;
 			if(Canship(weights,D,mid)){
